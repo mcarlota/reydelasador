@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Anton-Regular;
+  src: url(font/Anton-Regular.ttf);
+}
+@font-face {
+  font-family: Piedra-Regular;
+  src: url(font/Piedra-Regular.ttf);
+}
+
+body{background: #000;}
+
+.titulo{
+    color: #FA6607; 
+    text-align: center;
+	font-family: Anton-Regular;
+	font-size: 50px;
+	font-weight:bold;
+	margin:30px;
+}
+.col-md-4{
+	text-align: center;
+	
+}
+.item{
+	background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	width: 100%;
+	margin: 5px;
+	font-size: 24px;
+	color: #000;
+	font-family: Piedra-Regular;
+	 border-radius: 25px;
+}
+.mmdigital{
+	text-align: center;
+	color: #fff;
+
+}
